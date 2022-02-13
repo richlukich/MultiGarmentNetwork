@@ -9,8 +9,8 @@ from chumpy.ch import Ch
 from posemapper import posemap, Rodrigues
 from serialization import backwards_compatibility_replacements
 
-from lib.geometry import laplacian, get_hres
-from lib.ch import sp_dot
+from MultiGarmentNetwork.lib.geometry import laplacian, get_hres
+from MultiGarmentNetwork.lib.ch import sp_dot
 
 
 class Smpl(Ch):
