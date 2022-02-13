@@ -3,8 +3,8 @@ import numpy as np
 from psbody.mesh import Mesh
 from os.path import join
 import cPickle as pkl
-from lib.serialization import backwards_compatibility_replacements, load_model
-from utils.geometry import get_hres
+from MultiGarmentNetwork.lib.serialization import backwards_compatibility_replacements, load_model
+from MultiGarmentNetwork.utils.geometry import get_hres
 import scipy.sparse as sp
 
 ## Set your paths here
